@@ -3,9 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{D0658C80-93CD-4E98-9189-9C85059C938B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BD5244A9-87C9-4181-AF75-664451CF3BBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{60D60149-C7A2-46E5-9D41-9EFCDAE46C5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B3B037EC-3865-4E0D-BE35-0893A36476FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7B3ED749-49CC-4B8C-9712-AB11C1E4C00B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{14BDBFCC-DDC1-4B71-88A3-4618FFAE4D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodinSoft.Common", "NodinSoft.Common\NodinSoft.Common.csproj", "{B1106498-FDF0-4E70-98E8-FB049DDE57EA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1106498-FDF0-4E70-98E8-FB049DDE57EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1106498-FDF0-4E70-98E8-FB049DDE57EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1106498-FDF0-4E70-98E8-FB049DDE57EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1106498-FDF0-4E70-98E8-FB049DDE57EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60D60149-C7A2-46E5-9D41-9EFCDAE46C5F} = {D0658C80-93CD-4E98-9189-9C85059C938B}
+		{B3B037EC-3865-4E0D-BE35-0893A36476FA} = {D0658C80-93CD-4E98-9189-9C85059C938B}
+		{7B3ED749-49CC-4B8C-9712-AB11C1E4C00B} = {D0658C80-93CD-4E98-9189-9C85059C938B}
+		{14BDBFCC-DDC1-4B71-88A3-4618FFAE4D4E} = {D0658C80-93CD-4E98-9189-9C85059C938B}
+		{B1106498-FDF0-4E70-98E8-FB049DDE57EA} = {B3B037EC-3865-4E0D-BE35-0893A36476FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16466EF4-34FE-480B-A2CB-87844CBE1BB2}
