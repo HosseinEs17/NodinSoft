@@ -330,4 +330,9 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 
-/TSPService.APIs/Logs
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
