@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NodinSoft.Common\NodinSoft.Common.csproj" />
+    <ProjectReference Include="..\NodinSoft.Entities\NodinSoft.Entities.csproj" />
+    <ProjectReference Include="..\NodinSoft.Interfaces\NodinSoft.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
