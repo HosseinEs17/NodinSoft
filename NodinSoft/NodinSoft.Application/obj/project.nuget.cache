@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2/3A3FHgywWZIH+UhxxMbaklmHnnpy9js2YRLMG7tdYBWYiPy3j0MqoBZ8i4jS669MOH+8QdRfwQxcvpgjY/+g==",
+  "dgSpecHash": "JLlrsiYFiC7kks7pvC7XBD6WL3XbpDU+M9vQC9yyAkOtSlWLA0FXmh0+sdFAyGGY1CqU8dh/biIqKPb8VELerg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Application\\NodinSoft.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

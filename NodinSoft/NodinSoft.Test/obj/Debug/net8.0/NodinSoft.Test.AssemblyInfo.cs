@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NodinSoft.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e2c355d43858177a75453d7ce0c4b395f3c3e2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bbd3105c00bcf00824ab7e89d5cee57f87cce80")]
 [assembly: System.Reflection.AssemblyProductAttribute("NodinSoft.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NodinSoft.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
