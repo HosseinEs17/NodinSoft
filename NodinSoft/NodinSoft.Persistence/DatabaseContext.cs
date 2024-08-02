@@ -2,7 +2,7 @@
 using NodinSoft.Entities.ProductManagement;
 using Microsoft.EntityFrameworkCore;
 
-namespace Microsoft.Persistance
+namespace NodinSoft.Persistance
 {
     public class DatabaseContext : DbContext
     {

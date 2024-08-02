@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NodinSoft.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e2c355d43858177a75453d7ce0c4b395f3c3e2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+802e4cb6e79f2a816826f6c65bef66825961bcb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("NodinSoft.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NodinSoft.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

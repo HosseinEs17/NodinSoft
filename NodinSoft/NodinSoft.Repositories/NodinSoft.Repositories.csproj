@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NodinSoft.Entities\NodinSoft.Entities.csproj" />
+    <ProjectReference Include="..\NodinSoft.Interfaces\NodinSoft.Interfaces.csproj" />
+    <ProjectReference Include="..\NodinSoft.Persistence\NodinSoft.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

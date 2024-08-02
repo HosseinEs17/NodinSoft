@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NodinSoft.Entities\NodinSoft.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
