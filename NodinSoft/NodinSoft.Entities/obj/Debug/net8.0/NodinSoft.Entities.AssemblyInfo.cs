@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NodinSoft.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afccea8a31d0db47aa52170cf798abafaa57edd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d224a241ade3c6b25bf9219387d56ba8af0f688")]
 [assembly: System.Reflection.AssemblyProductAttribute("NodinSoft.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NodinSoft.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
