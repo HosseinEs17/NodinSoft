@@ -4,6 +4,148 @@
     "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.EndPoint\\NodinSoft.EndPoint.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Application\\NodinSoft.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Application\\NodinSoft.Application.csproj",
+        "projectName": "NodinSoft.Application",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Application\\NodinSoft.Application.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Common\\NodinSoft.Common.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Common\\NodinSoft.Common.csproj"
+              },
+              "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Entities\\NodinSoft.Entities.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Entities\\NodinSoft.Entities.csproj"
+              },
+              "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Interfaces\\NodinSoft.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Interfaces\\NodinSoft.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Common\\NodinSoft.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Common\\NodinSoft.Common.csproj",
+        "projectName": "NodinSoft.Common",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Common\\NodinSoft.Common.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.EndPoint\\NodinSoft.EndPoint.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,8 +173,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Application\\NodinSoft.Application.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Application\\NodinSoft.Application.csproj"
+              },
               "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Persistence\\NodinSoft.Persistence.csproj": {
                 "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Persistence\\NodinSoft.Persistence.csproj"
+              },
+              "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Repositories\\NodinSoft.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Repositories\\NodinSoft.Repositories.csproj"
               }
             }
           }
@@ -52,6 +200,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.7, )"
@@ -157,6 +309,73 @@
         }
       }
     },
+    "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Interfaces\\NodinSoft.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Interfaces\\NodinSoft.Interfaces.csproj",
+        "projectName": "NodinSoft.Interfaces",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Interfaces\\NodinSoft.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Entities\\NodinSoft.Entities.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Entities\\NodinSoft.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Persistence\\NodinSoft.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -220,6 +439,79 @@
               "version": "[8.0.7, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Repositories\\NodinSoft.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Repositories\\NodinSoft.Repositories.csproj",
+        "projectName": "NodinSoft.Repositories",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Repositories\\NodinSoft.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Entities\\NodinSoft.Entities.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Entities\\NodinSoft.Entities.csproj"
+              },
+              "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Interfaces\\NodinSoft.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Interfaces\\NodinSoft.Interfaces.csproj"
+              },
+              "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Persistence\\NodinSoft.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Persistence\\NodinSoft.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
