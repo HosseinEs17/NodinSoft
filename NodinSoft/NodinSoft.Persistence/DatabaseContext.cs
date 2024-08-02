@@ -60,6 +60,10 @@ namespace NodinSoft.Persistance
         public void UserConfig(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>()
+                        .HasIndex(u => u.Email)
+                        .IsUnique();
+
+            modelBuilder.Entity<User>()
                         .Property(u => u.Email)
                         .HasColumnType("varchar")
                         .HasMaxLength(64);

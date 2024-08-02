@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NodinSoft.EndPoint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+802e4cb6e79f2a816826f6c65bef66825961bcb7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf4af984cc615f9e1c87e8d2ac1905159d6ed56b")]
 [assembly: System.Reflection.AssemblyProductAttribute("NodinSoft.EndPoint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NodinSoft.EndPoint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
