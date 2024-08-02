@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NodinSoft.Interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afccea8a31d0db47aa52170cf798abafaa57edd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e2c355d43858177a75453d7ce0c4b395f3c3e2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("NodinSoft.Interfaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NodinSoft.Interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
