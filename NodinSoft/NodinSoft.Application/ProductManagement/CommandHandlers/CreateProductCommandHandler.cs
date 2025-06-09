@@ -1,9 +1,9 @@
-﻿using NodinSoft.Entities.ProductManagement;
-using NodinSoft.Interfaces.ProductManagement;
+﻿using NodinSoft.Domain.ProductManagement; // Corrected
+using NodinSoft.Application.ProductManagement.Interfaces; // Corrected
 using MediatR;
 using NodinSoft.Application.ProductManagement.Commands;
 
-namespace NodinSoft.Application.CommandHandlers.ProductManagement
+namespace NodinSoft.Application.ProductManagement.CommandHandlers // Corrected namespace
 {
     public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, int>
     {
@@ -15,14 +15,30 @@ namespace NodinSoft.Application.CommandHandlers.ProductManagement
 
         public async Task<int> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
-            var product = new Product
+            // Ensure required fields for constructor are not null
+            if (request.Name == null)
+                throw new ArgumentNullException(nameof(request.Name), "Product name cannot be null for creation.");
+            if (request.UserId == null)
+                throw new ArgumentNullException(nameof(request.UserId), "UserId cannot be null for creation.");
+            if (request.ManufactureEmail == null)
+                throw new ArgumentNullException(nameof(request.ManufactureEmail), "ManufactureEmail cannot be null for creation.");
+            if (request.ManufacturePhone == null)
+                throw new ArgumentNullException(nameof(request.ManufacturePhone), "ManufacturePhone cannot be null for creation.");
+
+            var product = new Product(
+                request.Name,
+                DateTime.UtcNow, // Assuming ProduceDate is now for new products
+                request.UserId.Value,
+                request.ManufactureEmail,
+                request.ManufacturePhone
+            );
+
+            // Product constructor sets IsAvailable to true by default.
+            // If request.IsAvailable is explicitly false, then mark as unavailable.
+            if (request.IsAvailable.HasValue && !request.IsAvailable.Value)
             {
-                Name = request.Name,
-                ManufacturePhone = request.ManufacturePhone,
-                ManufactureEmail = request.ManufactureEmail,
-                IsAvailable = request.IsAvailable is null ? true : (bool)request.IsAvailable,
-                UserId = (int)request.UserId
-            };
+                product.MarkAsUnavailable();
+            }
 
             await _productRepository.AddAsync(product);
 

@@ -1,6 +1,6 @@
-﻿using NodinSoft.Common.Enum;
+﻿using NodinSoft.Common.Enums; // Corrected to plural
 
-namespace NodinSoft.Common.Model
+namespace NodinSoft.Common.Models // Corrected to plural
 {
     public class MethodExecutionInfo
     {

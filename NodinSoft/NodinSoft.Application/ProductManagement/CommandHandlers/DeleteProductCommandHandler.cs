@@ -1,11 +1,11 @@
-﻿using NodinSoft.Common.Enum;
-using NodinSoft.Common.Model;
-using NodinSoft.Entities.ProductManagement;
-using NodinSoft.Interfaces.ProductManagement;
+﻿using NodinSoft.Common.Enums; // Corrected to Enums
+using NodinSoft.Common.Models; // Corrected to Models
+using NodinSoft.Domain.ProductManagement; // Corrected
+using NodinSoft.Application.ProductManagement.Interfaces; // Corrected
 using MediatR;
 using NodinSoft.Application.ProductManagement.Commands;
 
-namespace NodinSoft.Application.CommandHandlers.ProductManagement
+namespace NodinSoft.Application.ProductManagement.CommandHandlers // Corrected namespace
 {
     public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand, MethodExecutionInfo>
     {

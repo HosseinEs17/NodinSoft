@@ -18,8 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NodinSoft.Application\NodinSoft.Application.csproj" />
-    <ProjectReference Include="..\NodinSoft.Interfaces\NodinSoft.Interfaces.csproj" />
+    <ProjectReference Include="..\NodinSoft.Application\NodinSoft.Application.csproj" /> <!-- New Application -->
+    <ProjectReference Include="..\NodinSoft.Domain\NodinSoft.Domain.csproj" />
+    <!-- Add Infrastructure and Presentation if needed later -->
   </ItemGroup>
 
   <ItemGroup>
