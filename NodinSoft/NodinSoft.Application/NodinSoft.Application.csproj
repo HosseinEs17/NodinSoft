@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -7,13 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR" Version="12.4.0" />
+    <ProjectReference Include="..\NodinSoft.Domain\NodinSoft.Domain.csproj" />
+    <ProjectReference Include="..\NodinSoft.Common\NodinSoft.Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NodinSoft.Common\NodinSoft.Common.csproj" />
-    <ProjectReference Include="..\NodinSoft.Entities\NodinSoft.Entities.csproj" />
-    <ProjectReference Include="..\NodinSoft.Interfaces\NodinSoft.Interfaces.csproj" />
+    <PackageReference Include="MediatR" Version="12.4.0" />
   </ItemGroup>
 
 </Project>

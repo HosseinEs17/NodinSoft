@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5cbaSi7nVqiGZV5AvcI73mWsAsnD7eJxS6jpwMCh+R7C6oVDo45h3iY0LAuMGMkTgGTTfRfmUlRkCMvgkVHwPw==",
+  "dgSpecHash": "yEP0jevMUYVuzZMjTX57B88K6DPV6UzMIc2MyoAmoP4DiaAZWKf2Ej1YBpoVi4kpgZhNR42JqlMNOil3uUcGtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Programing\\Projects\\NodinSoft\\NodinSoft.Common\\NodinSoft.Common.csproj",
+  "projectFilePath": "/app/NodinSoft/NodinSoft.Common/NodinSoft.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -5,7 +5,7 @@ namespace NodinSoft.Application.ProductManagement.Commands
 {
     public class CreateProductCommand : IRequest<int>
     {
-        public string Name { get; set; }
+        public string? Name { get; set; } // Made nullable
         [JsonIgnore]
         public string? ManufacturePhone { get; set; }
         [JsonIgnore]

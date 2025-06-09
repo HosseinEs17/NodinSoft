@@ -1,4 +1,4 @@
-﻿namespace NodinSoft.Common.Enum
+﻿namespace NodinSoft.Common.Enums // Corrected to plural
 {
     public enum ApiStatus
     {

@@ -1,4 +1,4 @@
-﻿using NodinSoft.Common.Model;
+﻿using NodinSoft.Common.Models; // Corrected
 using MediatR;
 
 namespace NodinSoft.Application.ProductManagement.Commands
